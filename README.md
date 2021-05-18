@@ -15,8 +15,6 @@ Add custom configuration by editing the lib/js/config.js file.
 - Image path: Update this parameter if you want to point to a different images directory (**Note**: the files referenced by the images parameter must exist in the new directory).
 - Search Engine: You can change the search engine by editing the search paramerter.
 
-
-
 ```
 const settings = {
   links: {
@@ -32,3 +30,9 @@ const settings = {
   search: "https://www.google.com/search",
 };
 ```
+
+## ToDo List
+
+Contains a simple todo list which uses the browsers local storage to save your todo items.
+Each todo item can be marked as done.
+Ability to clear only done items or all items.
