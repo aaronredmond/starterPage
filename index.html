@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Home</title>
+    <link href="lib/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="lib/css/bootstrap-icons.css" />
+
+    <link href="lib/css/style.css" rel="stylesheet" />
+    <link href="lib/css/todo.css" rel="stylesheet" />
+  </head>
+
+  <body class="text-center">
+    <h1 class="hello"></h1>
+    <h1 id="clock" class="timing"></h1>
+    <h3 id="date" class="date"></h3>
+    <div class="search">
+      <form
+        id="searchForm"
+        action=""
+        method="get"
+        target="_blank"
+        autocomplete="off"
+      >
+        <input type="text" name="q" placeholder="Search" id="serchBox" />
+      </form>
+    </div>
+
+    <div class="icons"></div>
+
+    <div class="container">
+      <div class="input-group mb-3">
+        <input
+          id="newTask"
+          type="text"
+          class="form-control taskname"
+          placeholder="Enter a new task"
+          aria-label="task"
+          aria-describedby="task-input"
+        />
+
+        <div class="input-group-append">
+          <button type="button" class="btn btnTask">
+            <i class="bi bi-plus btnTaskIcon"></i>
+          </button>
+        </div>
+      </div>
+
+      <ul class="tasklist list-group"></ul>
+
+      <button type="button" class="btn btn-link btnClearCompleted">
+        Clear Completed
+      </button>
+      <button type="button" class="btn btn-link btnClear">Clear All</button>
+    </div>
+
+    <script src="lib/js/jquery-3.6.0.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script src="lib/js/config.js"></script>
+    <script src="lib/js/script.js"></script>
+    <script src="lib/js/todo.js"></script>
+  </body>
+</html>
