@@ -34,5 +34,7 @@ const settings = {
 ## ToDo List
 
 Contains a simple todo list which uses the browsers local storage to save your todo items.
+
 Each todo item can be marked as done.
+
 Ability to clear only done items or all items.
