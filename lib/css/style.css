@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "Product Sans1";
-  src: url("../fonts/Product Sans Regular.ttf") format("truetype");
+  font-family: "Noev";
+  src: url("../fonts/FontsFree-Net-Noev-1.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Product Sans2";
-  src: url("../fonts/Product Sans Bold.ttf") format("truetype");
+  font-family: "NoevBold";
+  src: url("../fonts/FontsFree-Net-Noev-Bold.ttf") format("truetype");
 }
 
 body {
-  font-family: "Product Sans1", sans-serif;
+  font-family: "Noev", sans-serif;
   background-color: #333;
   color: white;
   font-size: 20px;
